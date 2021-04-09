@@ -1,0 +1,134 @@
+/*
+Farben:
+#002a5a,
+#efe8d7,
+#F4C4C4,
+#282b29,
+#7d2222,
+#DEB873,
+#D2D2D2,
+#1d8883
+*/
+
+@font-face {
+    font-family: athene;
+    src: url(../fonts/Athene.otf);
+  }
+
+body {
+    margin: 0;
+    font-family: athene;
+    font-weight: 100;
+}
+
+/* header nav */
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px #282b29 solid;
+    padding: 0 10%;
+    color: #002a5a;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header p {
+    display: inline-block;
+}
+
+header p:nth-of-type(2) {
+    position: absolute;
+    right: 10%;
+}
+
+/* hero */
+
+#hero h1 {
+    border-bottom: 1px #282b29 solid;
+    font-size: 8rem;
+}
+
+#hero {
+    padding: 5% 15% 0;
+    background-color: #efe8d7;
+    height: 120vh;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+figure {
+    margin: 5% auto 0;
+    width: 33.15%;
+}
+
+figcaption span {
+    font-family: sans-serif;
+}
+
+figcaption {
+    margin-top: 5%;
+}
+
+/* release */
+
+#release {
+    background: #F4C4C4;
+    height: 220vh;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 5% 0 0 5%;
+}
+
+h2 {
+    font-size: 10rem;
+    font-weight: 100;
+    margin-bottom: auto;
+}
+
+#release aside {
+    position: absolute;
+    width: 35%;
+    right: 5%;
+    font-family: sans-serif;
+}
+
+#release aside p {
+    line-height: 200%;
+}
+
+table {
+    margin-top: 20%;
+}
+
+table tr td {
+    border-bottom: 1px #282b29 solid;
+}
+
+.erstezeile {
+    text-align: right;
+    font-size: .85rem;
+}
+
+.erstespalte {
+    padding-right: 5%;
+    font-size: .85rem;
+    font-weight: 100;
+}
+
+tr td:nth-of-type(2) {
+    padding: 10% 50% 10% 0;
+    font-weight: 400;
+}
+tr td:nth-of-type(3) {
+    text-align: right;
+    font-size: .85rem;
+}
