@@ -78,7 +78,7 @@ figcaption {
 
 #release {
     background: #F4C4C4;
-    height: 220vh;
+    height: 190vh;
 }
 
 h6 {
@@ -131,4 +131,11 @@ tr td:nth-of-type(2) {
 tr td:nth-of-type(3) {
     text-align: right;
     font-size: .85rem;
+}
+
+aside img {
+    width: 22%;
+    position: absolute;
+    right: 0;
+    top: 120%;
 }
