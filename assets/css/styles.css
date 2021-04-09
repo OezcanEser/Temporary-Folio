@@ -10,6 +10,10 @@ Farben:
 #1d8883
 */
 
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @font-face {
     font-family: athene;
     src: url(../fonts/Athene.otf);
@@ -30,7 +34,7 @@ header {
     padding: 0 10%;
     color: #002a5a;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header p {
@@ -45,97 +49,100 @@ header p:nth-of-type(2) {
 /* hero */
 
 #hero h1 {
-    border-bottom: 1px #282b29 solid;
-    font-size: 8rem;
+    text-align: center;
+    border-bottom: 1px solid #002a5a;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 8em;
 }
 
 #hero {
-    padding: 5% 15% 0;
+    padding: 5% 0 0;
     background-color: #efe8d7;
     height: 120vh;
+    color: #002a5a;
 }
 
-h1 {
-    margin: 0;
-    text-align: center;
-    font-weight: 100;
+#hero figure {
+    margin: 3.5% auto 0;
+    width: 23.15%;
 }
 
-figure {
-    margin: 5% auto 0;
-    width: 33.15%;
+#hero figcaption span {
+    font-family: 'Open Sans', sans-serif;
 }
 
-figcaption span {
-    font-family: sans-serif;
-}
-
-figcaption {
+#hero figcaption {
     margin-top: 5%;
+    font-size: 1.2em;
 }
 
 /* release */
 
 #release {
     background: #F4C4C4;
-    height: 190vh;
+    height: 180vh;
 }
 
-h6 {
-    font-family: sans-serif;
+#release h6 {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     margin: 0;
     padding: 5% 0 0 5%;
 }
 
-h2 {
+#release h2 {
     font-size: 10rem;
     font-weight: 100;
     margin-bottom: auto;
+    line-height: 120%;
 }
 
 #release aside {
     position: absolute;
     width: 35%;
     right: 5%;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #release aside p {
     line-height: 200%;
 }
 
-table {
+#release table {
     margin-top: 20%;
 }
 
-table tr td {
+#release table tr td {
     border-bottom: 1px #282b29 solid;
 }
 
-.erstezeile {
+#release .erstezeile {
     text-align: right;
     font-size: .85rem;
 }
 
-.erstespalte {
+#release .erstespalte {
     padding-right: 5%;
     font-size: .85rem;
     font-weight: 100;
 }
 
-tr td:nth-of-type(2) {
+#release tr td:nth-of-type(2) {
     padding: 10% 50% 10% 0;
     font-weight: 400;
 }
-tr td:nth-of-type(3) {
+
+#release tr td:nth-of-type(3) {
     text-align: right;
     font-size: .85rem;
 }
 
-aside img {
+#release aside img {
     width: 22%;
     position: absolute;
     right: 0;
     top: 120%;
 }
+
+/* works */
