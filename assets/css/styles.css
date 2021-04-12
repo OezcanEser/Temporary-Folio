@@ -48,12 +48,13 @@ header p:nth-of-type(2) {
 
 /* hero */
 
-#hero h1 {
+#hero h1 span {
     text-align: center;
     border-bottom: 1px solid #002a5a;
     width: 70%;
     margin: 0 auto;
     font-size: 8em;
+    display: block;
 }
 
 #hero {
